@@ -38,15 +38,33 @@ nav{
 .projects{
 background-color: #45567d;
 margin-top: -20px;
+color: white;
+text-align: center;
+padding-top: 20px;
+font-size: larger;
+line-height: 1.4rem;
+
 }
-.projects-col1 img{
-  width: 30%;
+.projects p{
+  font-size: larger;
+}
+.projects-col1, .projects-col2{
   display: flex;
-  flex-direction: column;
+}
+
+img{
+width: 400px;
+height: 400px;
+padding-left: 50px;
 }
 .social{
   background-color: black;
+  margin-top: -25px;
+  color: white;
+  font-size: larger;
+  text-align: center;
 }
 .social-media{
   display: flex;
+  padding-left: 30px;
 }
